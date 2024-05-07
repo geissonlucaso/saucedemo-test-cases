@@ -11,3 +11,5 @@ driver.find_element(By.ID, "password").send_keys("secret_sauce")
 driver.find_element(By.ID, "login-button").click()
 
 assert driver.find_element(By.XPATH, "//span[contains(text(), 'Products')]").is_displayed()
+
+driver.quit()

@@ -39,3 +39,5 @@ driver.find_element(By.ID, "shopping_cart_container").click()
 # verify products.
 assert driver.find_element(By.ID, "item_4_title_link").is_displayed()
 assert driver.find_element(By.ID, "item_0_title_link").is_displayed()
+
+driver.quit()
